@@ -16,9 +16,9 @@ void swap(int *x, int *y) // 2nd Difference - The formal parameters must be able
 { 
     
     int temp; 
-    temp = x;
-    x = y ;
-    y = temp ; // Swapping is done in the External Formal Parameters only and not inside the actual parameters 
+    temp = *x;
+    *x = *y ;
+    *y = temp ; // Swapping is done in the External Formal Parameters only and not inside the actual parameters 
     
 }
 
