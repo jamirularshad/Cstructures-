@@ -2,6 +2,8 @@
 
 //Parameter passing methods 
 // 1. Pass by Value 2.Pass by Address 3. Pass by Reference 
+// Use pass by Value when you do not have to change the actual parameters. --- swapping is only done in formal parameters & and the return value is only read 
+
 
 // Our function is going to swap two integers 
 
